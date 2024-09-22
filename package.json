@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jonnysud/contacts/issues"
   },
-  "homepage": "https://github.com/jonnysud/contacts#readme"
+  "homepage": "https://github.com/jonnysud/contacts#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
