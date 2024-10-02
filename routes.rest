@@ -1,0 +1,32 @@
+###get all
+GET http://localhost:3000/users
+
+###get by id
+GET http://localhost:3000/users/66ef9ad9c74e9752d74040ba
+
+###
+POST http://localhost:3000/users HTTP/1.1
+content-Type:  application/json
+
+{
+    "firstName" : "Micaela",
+    "lastName" : "Bastidas",
+    "email" : "micaela_bastidas196@gmail.com",
+    "favoriteColor" : "green",
+    "birthday" : "october 13th"
+}
+
+###
+PUT http://localhost:3000/users/66fc92046d29b4cb57f018cd
+Content-Type: application/json
+
+{
+    "firstName" : "Romina",
+    "lastName" : "Guiterrez",
+    "email" : "micaela.bastidas196@gmail.com",
+    "favoriteColor" : "yellow",
+    "birthday" : "october 14th"
+}
+
+###
+DELETE http://localhost:3000/users/66fc8d896b88431bd1095dba
