@@ -1,23 +1,23 @@
 ###get all
-GET http://localhost:3000/users
+GET http://localhost:3001/users
 
 ###get by id
-GET http://localhost:3000/users/66ef9ad9c74e9752d74040ba
+GET http://localhost:3001/users/66fc92046d29b4cb57f018cd
 
 ###
-POST http://localhost:3000/users HTTP/1.1
+POST http://localhost:3001/users HTTP/1.1
 content-Type:  application/json
 
 {
-    "firstName" : "Micaela",
-    "lastName" : "Bastidas",
-    "email" : "micaela_bastidas196@gmail.com",
-    "favoriteColor" : "green",
-    "birthday" : "october 13th"
+    "firstName" : "Karlo",
+    "lastName" : "Nole",
+    "email" : "karlo.nole@gmail.com",
+    "favoriteColor" : "blue",
+    "birthday" : "september 11th"
 }
 
 ###
-PUT http://localhost:3000/users/66fc92046d29b4cb57f018cd
+PUT http://localhost:3001/users/66fc92046d29b4cb57f018cd
 Content-Type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/users/66fc8d896b88431bd1095dba
+DELETE http://localhost:3001/users/66fc8d896b88431bd1095dba
